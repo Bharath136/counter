@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffd569;
+  padding: 80px;
+}
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  border-radius: 15px;
+}
+.heading {
+  font-size: 48px;
+}
+
+.image {
+  height: 200px;
+  margin: 50px;
+  /* margin-bottom: 50px; */
+}
+
+.images-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    flex-direction: column;
+  }
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.num {
+  color: #ffd569;
+}
